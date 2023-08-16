@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- css -->
+    <title>Pokedex</title>
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body-container">
+
+    <header class="content-header">
+        <div class="content-logo">
+            <div class="logodiv">
+                <img src="./img/SquirtTitle.png" alt="Logo Pokédex" width="200px" height="auto">
+            </div>
+            <div class="logodiv">
+                <img src="./img/PokedexTitle.png" alt="Logo Pokédex" width="400px">
+            </div>
+            <div class="logodiv">
+                <img src="./img/Ash+Pika.png" alt="Logo Pokédex" width="150px">
+            </div>
+
+        </div>
+
+
+        <nav class="nav">
+            <div class="search">
+                <div class="inputSearch">
+                    <input type="text" id="search"><img src="./img/pokeball.png" alt="Logo Pokédex" width="50px">
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn-header ver-todos" id="ver-todos">Ver todos</button></li>
+                <li class="nav-item"><button class="btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn-header water" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn-header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn-header fairy" id="fairy">Fairy</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-main">
+
+
+        <div class="pokemon-container">
+        </div>
+    </main>
+
+    <!-- crearemos la ventana emergente modal para los datos del pokemon -->
+
+
+    <div class="contentSpinner">
+
+        <div id="spinner" class="spinner-border text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+
+    </div>
+
+    <!-- <section class="modal-pokemon">
+        <div class="modal-container">
+            <img src="./img/logo.png" alt="">
+            <h2 class="modal-title">!Bienvenido al sitio</h2>
+            <p class="modal-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ducimus.</p>
+            <a href="" class="modal-close">Cerrar Modal</a>
+        </div>
+    </section>
+
+
+    <footer class="footer"> Holaaaaa </footer> -->
+    <script src="./pokemon.js"> </script>
+
+</body>
+
+</html>
